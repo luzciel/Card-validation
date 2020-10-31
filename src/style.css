@@ -1,0 +1,24 @@
+header{
+    background:#C4C4C4;
+    position: absolute;
+    width: 1349px;
+    height: 71px;
+    left: 0px;
+    top: -1px;
+    gap: 100px;
+    grid-auto-flow: column;
+}
+ol {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+.bienvenida {
+    position: absolute;
+    width: 1152px;
+    height: 613px;
+    left: 0px;
+    top: 146px;
+}
+

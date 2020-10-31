@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Pago Gym</title>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,400;1,600;1,700&family=Risque&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="pag2.css" />
+  </head>
+ 
+  <body>
+    <header class="header">
+      <nav class= "menu">
+        <figure class="logo">
+          <img src="imagen/LOGO.png" alt="logoGym" id="logo">
+        </figure>
+        <ol>
+          <li>
+            <p>Nosotros</p>
+          </li>
+          <li>
+            <p>Galeria</p>
+          </li>
+          <li>
+            <p>Contacto</p>
+          </li>
+        </ol>
+      </nav>
+    </header>
+
+    <main>
+    
+  
+      <section class="datosTarjeta">
+        
+        <section class="intro">
+          <h3>Paga con tu tarjeta de credito</h3>
+          <figure class="tarjetas">
+            <img src="imagen/visa.png" width="200" height="80" alt="visaMastercard" id="tarjeta">
+          </figure>
+        </section>
+       
+        <section class="datos-usuario">
+          <div class="dato-nombre">
+            <h4>Nombre</h4>
+            <input class="datos" type="text" id="nombre">
+          </div>
+
+          <div class="validar-numero-TDC">
+              <h4>Número de Tarjeta</h4>
+              <input class="datos" name="tarjetaCredito" type="text" id="numeroTDC" maxlength="16">
+          </div>
+      
+          <div class="fecha-CVV">
+              <div class="fecha-Vecimiento">
+                <h4>Fecha de vencimiento</h4>
+                <input type="text" id="inputVecimiento">    
+              </div>
+              <div class="CVV">
+                <h4>CVV</h4>
+                <input type="text" id="inputCVV" maxlength="3"> 
+              </div>
+          </div>
+          <div class = "total">
+              <h3>Total a pagar:  16.990</h3>
+              <!-- Trigger/Open The Modal -->
+              <input type="button" value="PAGAR" id="botonPagar" onclick="botonPago()">
+          </div>
+        </section>
+        
+      </section>
+      
+      <section class="Modal">
+          <!-- The Modal -->
+        <div id="miModal" class="modal">
+          <!-- Modal content -->
+        <div class="modal-content">
+          <div class="modal-header">
+            <span class="close">&times;</span>
+            <figure>
+              <img src="imagen/LOGO.png" alt="logoGym" id="logoModal">
+            </figure>
+          </div>
+          <div class="modal-body">
+            <div>
+              <h1 id="validacion"></h3>
+            </div>
+              <div>
+                <h2 id="ocultarNum"></h2>
+              </div>
+          </div>
+        <div class="modal-footer">
+          <button id= "volver">Aceptar</button>        
+      </div>  
+       </div>
+        </div>
+      </section>
+    </main>
+
+    <footer></footer>
+    <script src="index.js" type="module"></script>
+  </body>
+</html>
