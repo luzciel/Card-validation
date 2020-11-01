@@ -9,11 +9,6 @@ header {
     display : flex;
     width: 100vw;
     height: 14vh;
-
-}
-
-p {
-    font-size: 18px;
 }
 
 nav {
@@ -21,6 +16,13 @@ nav {
     width: 100%;
     justify-content: space-between;
     padding: 0px 15px;
+}
+figure{
+    margin-block-start: 0em;
+}
+p {
+    font-size: 18px;
+    margin: 0px;
 }
 
 ol {
@@ -40,13 +42,42 @@ h4 {
 }
 
 
-
-
-.bienvenida {
-    position: absolute;
-    width: 1152px;
-    height: 613px;
-    left: 0px;
-    top: 146px;
+a {
+    text-decoration: none;
+    color: rgba(249, 3, 3, 0.76);
+    font-size: 18px;
 }
 
+main {
+    display: flex;
+    height: 84vh;
+    width: 100vw;
+    
+}
+
+.bienvenida {
+    display: flex;
+}
+
+div {
+    display: flex;
+}
+
+.bienvenida-gym {
+    flex-direction: column;
+    background: black;
+    color: white;
+    width: 43vw;;
+    padding: 30px 0px 10px 100px;
+}
+
+
+h2 {
+    font-size: 240%;
+
+}
+
+h1 {
+    font-size: 65px;
+    margin: 0px;
+}
