@@ -1,8 +1,6 @@
 import validator from './validator.js';
 
-console.log("AAAAAAAAAAAAAa")
-
-var modal = document.getElementById("miModal");
+const modal = document.getElementById("miModal");
 
 //funcion que establece el mensaje que aparecera en caso de que la tarjeta sea valida o no
 function botonPago() {
@@ -18,8 +16,8 @@ function botonPago() {
 }
 
 
-// Get the <span> element that closes the modal
-var span = document.getElementsByClassName("close")[0]; 
+// obtener el elemento <span> el cual cierra el modal
+const span = document.getElementsByClassName("close")[0]; 
 
 // Cuando se haga click <span> (x), cierra el modal
 span.onclick = function() {
@@ -31,7 +29,7 @@ document.getElementById("volver").onclick = function() {volverPag()};
 // funcion que designa que hara el boton ACEPTAR. Si la la tarjeta es validad (true) vuelve a la pagina anterior (back)
 // y si es false desaparece el modal (style= "none")
 function volverPag() {
-  var creditCardNumber = document.getElementById("numeroTDC").value;
+  let creditCardNumber = document.getElementById("numeroTDC").value;
   if (creditCardNumber.length === 16 && validator.isValid(creditCardNumber) === true) {
     window.history.back()
   } else {

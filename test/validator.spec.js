@@ -25,6 +25,18 @@ describe('validator', () => {
       expect(validator.isValid("1234567890")).toBe(false);
       // escribe aquí tu test
     });
+
+    it('EXTRA debería retornar true para "3625102593804"', () => {
+      expect(validator.isValid("3625102593804")).toBe(true);
+      // escribe aquí tu test
+    });
+
+    it('EXTRA debería retornar true para "5558624161667524"', () => {
+      expect(validator.isValid("5558624161667524")).toBe(true);
+      // escribe aquí tu test
+    });
+    
+
   });
 
   describe('validator.maskify', () => {

@@ -2,13 +2,14 @@ body {
     padding: 0;
     margin: 0;
     font-family: 'Roboto Condensed', sans-serif;
+    overflow: hidden;
 }
 
 header {
     background:#C4C4C4;
     display : flex;
     width: 100vw;
-    height: 14vh;
+    height: 12vh;
 }
 
 nav {
@@ -17,6 +18,7 @@ nav {
     justify-content: space-between;
     padding: 0px 15px;
 }
+
 figure{
     margin-block-start: 0em;
 }
@@ -50,14 +52,20 @@ a {
 
 main {
     display: flex;
-    height: 84vh;
-    width: 100vw;
-    
+    flex-direction: column;
+    height: 88vh;
+    width: 100vw;     
 }
 
 .bienvenida {
     display: flex;
+    height: 86vh;
+    width: 100vw;
 }
+/* .bienvenida img {
+    width: 43vw;;
+
+} */
 
 div {
     display: flex;
@@ -67,7 +75,7 @@ div {
     flex-direction: column;
     background: black;
     color: white;
-    width: 43vw;;
+    width: 44vw;
     padding: 30px 0px 10px 100px;
 }
 
@@ -80,4 +88,74 @@ h2 {
 h1 {
     font-size: 65px;
     margin: 0px;
+}
+
+.planes
+{
+    background: #C4C4C4;
+    height: 100vh
+}
+.planes h2 {
+    text-align: center;
+}
+.body-planes {
+    display: flex;
+    justify-content: space-around;
+}
+
+.body-plan-bardi {
+    display: flex;
+    flex-direction: column;
+    background: rgba(247, 14, 79, 0.9);
+    border-radius: 10px;
+    height: 80vh;
+}
+
+.parrafo-bardi {
+    text-align: center;
+    font-size: 30px;
+}
+
+.plan-precio {
+    text-align: center;
+    font-size: 64px;
+    margin: 20px;
+}
+
+.body-plan-bardi button {
+    width: 203px;
+    height: 56px;
+    left: 377px;
+    top: 775px;
+    background: rgba(22, 28, 88, 0.86);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+}
+
+
+.body-plan-black {
+    flex-direction: column;
+}
+
+.parrafo-black {
+    text-align: center;
+    font-size: 30px;
+}
+
+.body-plan-black {
+    left: 795px;
+    top: 107px;
+    color: white;
+
+    background: #1D1C1C;
+    border-radius: 10px;
+}
+.body-plan-black button {
+    width: 203px;
+    height: 56px;
+    left: 377px;
+    top: 775px;
+    background: rgba(22, 28, 88, 0.86);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
 }

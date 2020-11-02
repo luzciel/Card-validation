@@ -7,7 +7,10 @@ header {
     background:#C4C4C4;
     display : flex;
     width: 100vw;
-    height: 14vh;
+    height: 12vh;
+}
+.logo {
+    margin-block-start: 0em;
 }
 
 p {
@@ -25,6 +28,7 @@ ol {
     list-style: none;
     display: flex;
     justify-content: flex-end;
+    align-items: center;
 }
 
 li {
@@ -41,7 +45,7 @@ h4 {
 main{
     background-image: url(imagen/fondo2.jpg);
     display: flex;
-    height: 86vh;
+    height: 88vh;
     background-repeat: no-repeat; /* hace que no se repita la imagen */
     background-size: cover; /* Resize the background image to cover the entire container */
     justify-content: center;
@@ -171,7 +175,7 @@ div{
     display: none; /* Hidden by default */
     position: fixed; /* Stay in place */
     z-index: 1; /* Sit on top */
-    padding-top: 170px; /* Location of the box */
+    padding-top: 161px; /* Location of the box */
     left: 0;
     top: 0;
     width: 100%; /* Full width */
