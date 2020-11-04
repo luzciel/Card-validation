@@ -45,5 +45,5 @@ Se realizó feedback con posibles usuarios del gimnasio, compañeras y coach de 
 ![Web gym tarjeta valida](https://github.com/luzciel/SCL015-card-validation/blob/master/src/imagen/web%20modal%20valido.png)
 ![Web gym tarjeta invalida](https://github.com/luzciel/SCL015-card-validation/blob/master/src/imagen/web%20modal%20Invalido.png)
 
-([link del proyecto](https://luzciel.github.io/SCL015-card-validation/src/index.html)
+[link del proyecto](https://luzciel.github.io/SCL015-card-validation/src/index.html)
 
