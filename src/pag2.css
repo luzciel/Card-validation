@@ -57,13 +57,15 @@ div{
     display: flex;
 }
 
+input { 
+    border-style: none;
+}
 
 .datosTarjeta {
     display: flex;
     flex-direction: column;
     width: 45vw;
     justify-content: center;
-    
     background: rgba(45, 51, 111, 0.96);
     border-radius: 15px;
 }
@@ -74,7 +76,6 @@ div{
     padding: 0;
     margin: 0;
     justify-content: center;
-
     color: #000000;
 }
 
@@ -111,7 +112,6 @@ div{
     height: 3.5vh;
     width:20vw;
     margin: 3px 0px 15px;
-    
 }
 
 
@@ -164,9 +164,8 @@ div{
     height: 6vh;
     width: 10vw;
     color: white;
-    font-size: 80%;
+    font-size: 17px;
     font-weight: bold;
-    /* box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); */
     border-radius: 10px;
 }
 
@@ -219,6 +218,7 @@ div{
     float: right;
     font-size: 28px;
     font-weight: bold;
+    padding: 0px 0px 2px 51px;
 }
   
 .close:hover,
@@ -238,7 +238,7 @@ div{
   }
 
   #logoModal {
-    padding: 0px 0px 0px 0px;
+    padding: 2px 0px 2px 41px;
   }
   
   .modal-body {
@@ -246,6 +246,13 @@ div{
       flex-direction: column;
       align-items: center;
       padding: 0px 16px;
+      height: 26vh;
+      border-style: none;
+    }
+
+    .modal-ocultar-numero {
+        text-align: -webkit-center;
+
     }
 
     a:-webkit-any-link {
@@ -255,9 +262,7 @@ div{
     }
   
   .modal-footer {  
-    padding: 20px 20px 15px;
-    background-color: #fefefe;
-    color: white;
+    padding: 40px 20px 0px;
     justify-content: flex-end;
   }
      button {
@@ -265,7 +270,7 @@ div{
         height: 6vh;
         width: 10vw;
         color: white;
-        font-size: 80%;
+        font-size: 20px;
         font-weight: bold;
         border-radius: 10px;
     }

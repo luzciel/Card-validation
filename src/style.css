@@ -22,6 +22,7 @@ nav {
 figure{
     margin-block-start: 0em;
 }
+
 p {
     font-size: 18px;
     margin: 0px;
@@ -43,7 +44,6 @@ h4 {
     margin: 0;
 }
 
-
 a {
     text-decoration: none;
     color: rgba(249, 3, 3, 0.76);
@@ -59,21 +59,22 @@ main {
 
 .bienvenida {
     display: flex;
-    height: 86vh;
+    height: 88vh;
     width: 100vw;
 }
-/* .bienvenida img {
-    width: 43vw;;
-
-} */
 
 div {
     display: flex;
 }
 
+div p {
+   padding-top: 15px;
+   font-size: 23px;
+   font-weight: normal;
+}
 .bienvenida-gym {
     flex-direction: column;
-    background: black;
+    background: #1D1C1C;
     color: white;
     width: 44vw;
     padding: 30px 0px 10px 100px;
@@ -81,81 +82,26 @@ div {
 
 
 h2 {
-    font-size: 240%;
+    font-size: 40px;;
+    font-weight: normal;
+    margin-bottom: 10px;
 
 }
 
 h1 {
-    font-size: 65px;
+    font-size: 75px;
     margin: 0px;
+    font-weight: normal;
 }
 
-.planes
-{
-    background: #C4C4C4;
-    height: 100vh
+h3 {
+    font-style: italic;
+    font-weight: normal;
+    font-size: 23px;
 }
-.planes h2 {
-    text-align: center;
+.gym-horario {
+    text-decoration: underline;
+    margin-top: 40px;
+    font-weight: normal;
 }
-.body-planes {
-    display: flex;
-    justify-content: space-around;
-}
-
-.body-plan-bardi {
-    display: flex;
-    flex-direction: column;
-    background: rgba(247, 14, 79, 0.9);
-    border-radius: 10px;
-    height: 80vh;
-}
-
-.parrafo-bardi {
-    text-align: center;
-    font-size: 30px;
-}
-
-.plan-precio {
-    text-align: center;
-    font-size: 64px;
-    margin: 20px;
-}
-
-.body-plan-bardi button {
-    width: 203px;
-    height: 56px;
-    left: 377px;
-    top: 775px;
-    background: rgba(22, 28, 88, 0.86);
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    border-radius: 10px;
-}
-
-
-.body-plan-black {
-    flex-direction: column;
-}
-
-.parrafo-black {
-    text-align: center;
-    font-size: 30px;
-}
-
-.body-plan-black {
-    left: 795px;
-    top: 107px;
-    color: white;
-
-    background: #1D1C1C;
-    border-radius: 10px;
-}
-.body-plan-black button {
-    width: 203px;
-    height: 56px;
-    left: 377px;
-    top: 775px;
-    background: rgba(22, 28, 88, 0.86);
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    border-radius: 10px;
 }
