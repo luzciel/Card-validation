@@ -1,4 +1,4 @@
-# Gimnasio Bardi (validar tarjeta de credito)
+# Gym Pago 
 
 ## Índice
 
